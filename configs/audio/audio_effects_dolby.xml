@@ -97,8 +97,12 @@
             <libsw library="dap_sw" uuid="6ab06da4-c516-4611-8166-452799218539"/>
             <libhw library="dap_hw" uuid="a0c30891-8246-4aef-b8ad-d53e26da0253"/>
         </effectProxy>
-        <!-- DOLBY END -->
-    </effects>
+
+        <effectProxy name="dolby" library="proxy" uuid="ec7178ec-e5e1-4432-a3f4-4657e6795210">
+            <libsw library="dap_sw" uuid="6ab06da4-c516-4611-8166-452799218539"/>
+            <libhw library="dap_hw" uuid="a0c30891-8246-4aef-b8ad-d53e26da0253"/>
+        </effectProxy>
+        </effects>
     <postprocess>
         <stream type="music">
             <apply effect="music_helper"/>
